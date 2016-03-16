@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    330344,       7387]
-NotebookOptionsPosition[    328944,       7337]
-NotebookOutlinePosition[    329686,       7365]
-CellTagsIndexPosition[    329599,       7360]
+NotebookDataLength[    330520,       7390]
+NotebookOptionsPosition[    329120,       7340]
+NotebookOutlinePosition[    329862,       7368]
+CellTagsIndexPosition[    329775,       7363]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -100,22 +100,23 @@ Cell[BoxData[
    RowBox[{"{", 
     RowBox[{"b", ",", "0.01", ",", "0.8"}], "}"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.6670881710698137`*^9, 3.667088210227418*^9}, {
-  3.667089168955536*^9, 3.667089169821424*^9}}],
+  3.667089168955536*^9, 3.667089169821424*^9}, {3.6670928303448677`*^9, 
+  3.667092831984057*^9}, {3.6670929224444*^9, 3.6670929427152452`*^9}}],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`b$$ = 0.6, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`b$$ = 0.676, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`b$$], 0.01, 0.8}}, Typeset`size$$ = {
     400., {213., 202.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-    Typeset`skipInitDone$$ = True, $CellContext`b$19673$$ = 0}, 
+    Typeset`skipInitDone$$ = True, $CellContext`b$21099$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, "Variables" :> {$CellContext`b$$ = 0.01}, 
       "ControllerVariables" :> {
-        Hold[$CellContext`b$$, $CellContext`b$19673$$, 0]}, 
+        Hold[$CellContext`b$$, $CellContext`b$21099$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -135,7 +136,9 @@ Cell[BoxData[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.6670894205421867`*^9}]
+ CellChangeTimes->{
+  3.6670894205421867`*^9, 3.6670928323548737`*^9, {3.667092929751088*^9, 
+   3.667092943349246*^9}}]
 }, Open  ]],
 
 Cell[BoxData[
@@ -7359,7 +7362,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"Info3667064055-1263492", 329263, 7348}
+ {"Info3667064055-1263492", 329439, 7351}
  }
 *)
 (*NotebookFileOutline
@@ -7379,15 +7382,15 @@ Cell[3787, 85, 219, 4, 43, "Print",
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4055, 95, 301, 7, 28, "Input"],
-Cell[4359, 104, 1593, 33, 520, "Output"]
+Cell[4055, 95, 398, 8, 28, "Input"],
+Cell[4456, 105, 1672, 35, 520, "Output"]
 }, Open  ]],
-Cell[5967, 140, 274, 4, 28, "Input"],
+Cell[6143, 143, 274, 4, 28, "Input"],
 Cell[CellGroupData[{
-Cell[6266, 148, 2169, 64, 148, "Input"],
-Cell[8438, 214, 317539, 7039, 432, "Output"],
-Cell[325980, 7255, 660, 10, 48, "Output"],
-Cell[326643, 7267, 2285, 67, 124, "Output"]
+Cell[6442, 151, 2169, 64, 148, "Input"],
+Cell[8614, 217, 317539, 7039, 432, "Output"],
+Cell[326156, 7258, 660, 10, 48, "Output"],
+Cell[326819, 7270, 2285, 67, 124, "Output"]
 }, Open  ]]
 }
 ]
