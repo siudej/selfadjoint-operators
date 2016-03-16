@@ -5,8 +5,10 @@ This Mathematica script is an optimized version of the code used by Marcin Bowni
 
 The script computes all possible eigenvalue pairs `e1` and `e2` for an infinite dimensional self-adjoint operators (symmetric matrices) with diagonal entries formed by infinite sequences `beta^n` and `1-beta^n`, and exactly 4 eigenvalues `0<e1<e2<1`. 
 
-The possible eigenvalue pairs create very interesting visualizations in 2D. For example `beta=0.5` and `0.8` lead to:
-![0.5](0.5.png) ![0.8](0.8.png)
+The possible eigenvalue pairs create very interesting visualizations in 2D. For example `beta=0.5` and `beta=0.8` lead to:
+
+<img src="0.5.png" width="300"/>
+<img src="0.8.png" width="300"/>
 
 ### Optimizations
 
