@@ -17,11 +17,12 @@ The original code (`old.nb`) involves depth-first approach through various neste
 The optimal code precomputes values of some functions, eliminates optimization step, and tabularizes all repeating computations.
 
 As a result:
-* constraint on multiplicity of eigenvalues is now eliminated
-* all computations can be performed using rational numbers
-* execution time decreased more than 1000 times. Finding images for `{beta, 0.752, 0.766, 0.002}` (8 values):
+* Constraint on multiplicity of eigenvalues is now eliminated, but that means that for `beta>0.95` computations slow down significantly. With `beta=0.98` there is about 20 million intervals to compute and draw.
+* All computations can be performed using rational numbers, or much faster using compile machine-precision floats.
+* Execution time decreased more than 10000 times. Finding images for `{beta, 0.752, 0.766, 0.002}` (8 values):
   - old script: 8 values computed in parallel, 1 threads each     - 1500 s
-  - new script: 8 threads per value, time to finish all in series - 0.2 s  
+  - new script: 8 values computed in series, single threaded      - 0.007 s
+  - new script: same but using rational numbers			  - 0.19 s 
 
 ### TODO
 * Generalize the code to two arbitrary sequences of diagonal elements (one converging to 0, one to 1).
